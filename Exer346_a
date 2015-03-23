@@ -1,0 +1,24 @@
+// Exer1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "stdio.h"
+
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	int aux = 0;
+	float fatorial, numero;
+	printf("Digite um numero");
+	scanf("%f", &numero);
+	for (fatorial = 1; numero > 1; numero--){
+		fatorial = fatorial * numero;
+
+		
+	}
+	printf("\n Fatorial: %f", fatorial);
+	scanf("%d", aux);
+
+	return 0;
+}
+
