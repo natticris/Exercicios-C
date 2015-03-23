@@ -1,4 +1,4 @@
-Enter file contents here// Exer1b.cpp : Defines the entry point for the console application.
+// Exer1b.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
@@ -13,26 +13,27 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 	float r = 1; 
 	
-	scanf("%d", &r);
+	
+	printf("%f", r);
 	float n = 1;
 
 	//Exercicio letra b
 	for (int i = 0; i < 10; i++){
 		r = r + (pow(fatorial(n), -1));
-		scanf("%d", &r);
-		n = n + 1;
+		printf("\n %f", r);
+		n++;
 	}
 
-	scanf("\n %f", &r);
-
+	printf("\n %f", r);
+	float n2 = 1;
 	float r2 = 1;
 	//Exercicio letra c
 	for (int i = 0; i < 10; i++){
-		r2 = r2 + (pow(fatorial(n), -1))* (pow(fatorial(n), n));
-		scanf("%f", &r);
-		n = n + 1;
+		r2 = r2 + (pow(fatorial(n2), -1)) * (pow(fatorial(n2), n2));
+		printf("\n %f", r2);
+		n++;
 	}
-	scanf("\n %f", &r2);
+	printf("\n %f", r2);
 
 
 
